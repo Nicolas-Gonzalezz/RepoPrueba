@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    }
+@media (min-width: 500px){
+    body{        
+        background-image: url(../img/Foto\ Productos.jpg);
+        background-repeat: no-repeat;
+        background-size: 200vh 70vh;
+        position: relative;
+        padding-bottom: 1em;
+        min-height: 100vh;
+        background-color: grey;
+        height: 200vh;
+    }
+    header{
+        padding: 30px;
+        background-color: rgb(85, 85, 85);
+        opacity: 80%;
+        top: 0;
+    }
+    .carrito{
+        position: absolute;
+        right: 10vh;
+        top: 2vh;
+    }
+    .marca{
+        text-decoration: none;
+        display: flex;
+        position: absolute;
+        font-size: 50px;
+        top: 10px;
+        left: 10px;
+        color: white;
+    }
+    .parrafo{
+        text-decoration: none;
+        display: flex;
+        position: absolute;
+        font-size: 30px;
+        top: 60px;
+        left: 45px;
+        color: white;
+    }
+    nav ul{
+        font-family: 'Ubuntu', sans-serif;
+        display: flex;
+        flex-direction: row;
+        padding: 15px;
+        justify-content: center;
+    }
+    li a{
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        padding: 20px;
+        align-items: center;
+    }
+    li{
+        list-style-type: none;
+    }
+}
+
+
+
+
+
+@media(min-width: 1200px){
+    .padre{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px;
+    }
+    .hijo{
+        width: 110%;
+    }
+    body{
+        background-image: url(../img/Foto\ Productos.jpg);
+        background-repeat: no-repeat;
+        background-size: 200vh 70vh;
+        position: relative;
+        padding-bottom: 1em;
+        min-height: 100vh;
+        background-color: grey;
+        height: 200vh;
+    }
+    header{
+        padding: 40px;
+        background-color: rgb(85, 85, 85);
+        opacity: 80%;
+        position: sticky;
+        top: 0;
+    }
+    nav ul{
+        font-family: 'Ubuntu', sans-serif;
+        display: flex;
+        flex-direction: row;
+        padding: 15px;
+        justify-content: center;
+    }
+    li{
+        list-style-type: none;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        padding: 20px;
+    }
+    footer{
+        background-color: rgb(85, 85, 85);
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 210px;
+    }
+    .welcome{
+        font-family: 'Ubuntu', sans-serif;
+        text-align: center;
+        padding-top: 150px;
+        text-transform: uppercase;
+        font-size: 30px;
+        width: 180vh ;
+    }
+    .segundo{
+        width: 200vh;
+    }
+    .destacados{
+        color: white;
+        margin-top: 45vh;
+        text-align: center;
+        font-size: 50px;
+    }
+    .marca{
+        text-decoration: none;
+        display: flex;
+        position: absolute;
+        font-size: 60px;
+        top: 10px;
+        left: 10px;
+        color: white;
+    }
+    .parrafo{
+        text-decoration: none;
+        display: flex;
+        position: absolute;
+        font-size: 40px;
+        top: 60px;
+        left: 45px;
+        color: white;
+    }
+    .footer{
+        color: white;
+        display: flex;
+        position: absolute;
+        left: 44%;
+        top: 45px;
+        font-size: 0px;
+        flex-direction: column-reverse;
+    }
+    .pie{
+        padding-top: 15px;
+        color: white;
+        position: absolute;
+        left: 47%;
+        font-size: 25px;
+    }
+    .insta{
+        color: white;
+        position: absolute;
+        left: 92vh;
+        top: 70px;
+    }
+    .facebook{
+        color: white;
+        position: absolute;
+        left: 92vh;
+        top: 142px;
+    }
+    .contactos{
+        color: rgb(226, 226, 226);
+        position: absolute;
+        padding-top: 15px;
+        font-size: 25px;
+        left: 3%;
+    }
+    .emails{
+        color: white;
+        position: absolute;
+        padding-top: 70px;
+        padding-left: 50px;
+    }
+    .email{
+        position: absolute;
+        top: 60px;
+        right: 190vh;
+    }
+    .numero{
+        position: absolute;
+        color: white;
+        top: 140px;
+        left: 50px;
+    }
+    .whats{
+        position: absolute;
+        left: 20px;
+        top: 72px;
+    }
+    .maps{
+        position: absolute;
+        top: 35px;
+        left: 18px;
+    
+    }
+    .mapa{
+        color: white;
+        position: absolute;
+        top: 105px;
+        left: 50px;
+    }
+    .tarjetas{
+        color: white;
+        position: absolute;
+        right: 80px;
+        top: 15px;
+        font-size: 25px;
+    }
+    .visa{
+        position: absolute;
+        top: 0px;
+        left: 178vh;
+    }
+    .paypal{
+        position: absolute;
+        top: 0;
+        left: 171vh;
+    }
+    .carrito{
+        position: absolute;
+        right: 10px;
+        top: 40px;
+    }
+    .card{
+        position: absolute;
+        left: 185vh;
+        top: 0;
+    }
+    .login{
+        position: absolute;
+        right: 70px;
+        top: 25px;
+    }
+    .me{
+        color: white;
+        font-size: 45px;
+        padding-top: 60vh;
+        padding-left: 82vh;
+    }
+    .prueba{
+        transition: all 300ms ease;
+    }
+    .prueba:hover{
+        transform: scale(1.1);
+    }
+    .log{
+        background-color: rgb(85, 85, 85);
+        color: white;
+        opacity: 80%;
+        border-radius: 3px;
+        padding: 25vh;
+        height: 200px;
+        width: 300px;
+        position: fixed;
+        left: 58vh;
+        top: 20vh;
+    }
+    .usuario{
+        border: 1px solid rgb(255, 255, 255);
+        padding: 10px;
+        width: 280px;
+        color: white;
+    }
+    .fondo{
+        background-image: url(https://img.freepik.com/foto-gratis/fondo-hojas-verdes-tropicales_53876-88891.jpg?w=1380&t=st=1667502811~exp=1667503411~hmac=5e2059c9b5c8c5fdd5d28b527cbf09fe2207c4044fd8c3329475e6d1f6ec2e68);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position:sticky;
+        padding-bottom: 1em;
+        min-height: 100vh;
+        background-color: grey;
+        height: 120vh;
+    }
+    
+    .colums img{
+        height: 250px;
+        width: 250px;
+        display: flex;
+        padding: 16vh;
+        flex-direction: column-reverse;
+        transition: all 1s;
+    
+    }
+    .colums img:hover{
+        transform: scale(1.1);
+    }
+    .colums{
+        border: 1px solid rgb(102, 102, 102);
+        color: white;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .foto{
+        position: absolute;
+        top: 125vh;
+        left: 31vh;
+    }
+    .foto2{
+        position: absolute;
+        top: 125vh;
+        left: 94vh;
+    }
+    .foto3{
+        position: absolute;
+        top: 125vh;
+        left: 159vh;
+    }
+    .nosotros img{
+        display: block;
+        width: 700px;
+        height: 650px;
+        margin-left: 15vh;
+        margin-top: 13vh;
+    }
+    .quienes{
+        position: absolute;
+        top: 98vh;
+        left: 90vh;
+        font-size: 25px;
+        color: rgb(159, 194, 164);
+    }
+}
